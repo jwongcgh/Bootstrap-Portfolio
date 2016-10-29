@@ -1,0 +1,82 @@
+html, body {
+  font-family: 'Cormorant Garamond', 'Gentium Basic', Trirong, serif;
+}
+
+.navbar-brand {
+  font-family: Trirong;
+}
+
+.content {
+	margin-bottom: 0;
+  margin-top: 20px;   /**** use for navbar detached ****/
+	}
+
+ h4, h5 {
+  font-family:'Cormorant Garamond';
+ 	text-align: center;
+ }
+
+.footer {
+  border-color: #35393D;
+}
+
+li a {
+  text-align: right;
+}
+
+ img {
+ 	padding-top: 10px;
+ }
+
+hr {
+	margin-top: 5px;
+  width: 80%;
+}
+
+#chatter {
+  font-size: small;
+  color: #cc7a00; /*#604020;*/
+  }
+
+.voice {
+  font-variant: small-caps;
+  color: #82C990;
+  }
+
+p.social {
+  text-align: center;
+  margin-top: 20px;
+}
+p.social a {
+  margin: 0 10px 0 0;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  border-radius: 21px;
+  line-height: 42px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+p.social a.linkedin {
+  background-color: #666;
+}
+p.social a.slack {
+  background-color: #666;
+}
+p.social a.github {
+  background-color: #999;
+}
+p.social a.stack-overflow {
+  background-color: #999;
+}
+p.social a.email {
+  background-color: #666;
+}
+
+.navbar .in .nav li {
+   display: block;
+   float: none;
+   width:100%;
+}
